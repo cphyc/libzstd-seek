@@ -16,7 +16,7 @@
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <string.h>
-#include "zstd-seek.h"
+#include "zstd-seek.hpp"
 
 typedef struct {
     size_t compressedOffset; //how may bytes to skip from the beginning of the compressed stream (skip to target frame)
